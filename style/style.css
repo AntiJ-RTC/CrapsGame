@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Source+Code+Pro&display=swap');
 
 body{
     background-image: url(../craps_background.jpg);
@@ -53,8 +53,7 @@ body{
     border-radius: 10px;
     box-shadow: -2px 2px 2px black;
     padding: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
 }
 #crapsOutput{
 }
@@ -76,4 +75,18 @@ body{
 }
 .button:hover{
     background-color: rgb(0, 102, 80);
+}
+#updates{
+    background-color: rgb(0, 70, 55, .5);
+    border-radius: 10px;
+    box-shadow: -2px 2px 2px black;
+    padding: 25px;
+    margin: 20px;
+    color: lightgoldenrodyellow;
+    font-family: 'Source Code Pro', monospace;
+}
+#updates p{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
 }
